@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         plugin = {"pretty","json:target/cucumber.json"}
 )
-public class runner {
+public class RunnerTest {
 
 }

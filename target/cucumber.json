@@ -3,7 +3,71 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-28T15:05:33.553Z",
+        "start_timestamp": "2022-08-30T07:43:18.253Z",
+        "line": 2,
+        "name": "Open explorer on youtube music",
+        "description": "",
+        "id": "open-explorer-youtube-music;open-explorer-on-youtube-music",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6479815600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User access youtube music \"https://music.youtube.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://music.youtube.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDef.OpenExplorer2.userAccessYoutubeMusic(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92879600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click explorer button",
+            "match": {
+              "location": "StepDef.OpenExplorer2.userClickExplorerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2613974800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User direct to explorer page",
+            "match": {
+              "location": "StepDef.OpenExplorer2.userDirectToExplorerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open Explorer Youtube Music",
+    "description": "",
+    "id": "open-explorer-youtube-music",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/OpenExplorer2/OpenExplorer2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-30T07:43:27.495Z",
         "line": 2,
         "name": "As user i want to search music",
         "description": "",
@@ -13,7 +77,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8082013700,
+              "duration": 7354176000,
               "status": "passed"
             },
             "line": 3,
@@ -31,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 173362700,
+              "duration": 246091100,
               "status": "passed"
             },
             "line": 4,
@@ -49,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 80557100,
+              "duration": 48834400,
               "status": "passed"
             },
             "line": 5,
@@ -61,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 2575050400,
+              "duration": 2537660800,
               "status": "passed"
             },
             "line": 6,
